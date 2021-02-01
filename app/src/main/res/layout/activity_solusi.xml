@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolusiActivity">
+
+    <RelativeLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#13A1F1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Sakit Perut"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="358dp"
+        android:layout_height="460dp"
+        android:layout_below="@+id/nav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="123dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img_mag" />
+
+        <TextView
+            android:id="@+id/kalimat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:text="Deskripsi : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat1"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Nyeri perut juga dapat disebabkan oleh hal-hal di luar penyakit yang mendasari. Contohnya meliputi sembelit, gas, makan berlebihan, stres, atau otot tegang."
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Cara mengatasi : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat4"
+            android:layout_width="316dp"
+            android:layout_height="192dp"
+            android:layout_below="@id/kalimat3"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Mengatur Pola Makan Untuk mengatasi maag, Anda disarankan mengonsumsi makanan dalam porsi kecil, namun lebih sering. Biasakan juga untuk tidak langsung berbaring setelah makan dan tunggu setidaknya 2–3 jam sebelum berbaring. Selain itu, hindari mengonsumsi makanan pedas dan makanan yang terlalu asam, seperti tomat dan jeruk. Hindari pula minuman bersoda, kafein, dan minuman beralkohol, serta makanan pemicu sakit maag seperti cokelat dan mint."
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navbottom1"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_phone" />
+
+        <Button
+            android:id="@+id/konsultasii"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Konsultasi"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navbottom2"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/content"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_pesan"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/pesan"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Pesan"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</RelativeLayout>

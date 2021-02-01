@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewDokterActivity">
+
+    <RelativeLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#13A1F1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Dokter Specialis"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="358dp"
+        android:layout_height="479dp"
+        android:layout_below="@+id/nav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:id="@+id/dokter"
+            android:layout_width="166dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_dokter1" />
+
+        <TextView
+            android:id="@+id/kalimat1"
+            android:layout_below="@+id/dokter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Dokter specialis :  "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat1"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Rani "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Dokter specialis :  "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat4"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat3"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Kulit"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat4"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="No hp : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat5"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="0676796878"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pesan"
+            android:layout_below="@+id/kalimat6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="Konsultasi"
+            android:background="#13A1F1"
+            android:textColor="#fff"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

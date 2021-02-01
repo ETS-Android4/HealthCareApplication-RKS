@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Healthcare Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="healthy_care">Healthy Care</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="username">Username</string>
+    <string name="nama_depan">Nama depan</string>
+    <string name="nama_belakang">Nama belakang</string>
+    <string name="password">Password</string>
+    <string name="hallo">Hallo!!</string>
+    <string name="title_activity_apotek2">ScrollingActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="get_start">Get Start</string>
+</resources>

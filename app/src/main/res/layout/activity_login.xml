@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_registrasi_login"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/name_login"
+        android:layout_width="270dp"
+        android:gravity="center_horizontal"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:padding="8dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:layout_centerHorizontal="true"
+        android:text="Health Care"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_below="@id/name_login"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/icon_username"
+        android:layout_below="@+id/name_login"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/img_userrr" />
+
+    <ImageView
+        android:layout_height="35dp"
+        android:layout_width="35dp"
+        android:layout_below="@+id/icon_username"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/img_lock" />
+
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_login"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="5dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        tools:ignore="RtlCompat,UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_username"
+        android:background="@drawable/costumebg2"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:hint="Password"
+        android:elevation="5dp"
+        android:padding="10dp"
+        tools:ignore="RtlCompat,UnusedAttribute"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_below="@+id/input_password"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#fff"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/costumebg1"
+        android:layout_marginRight="40dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_toEndOf="@+id/btnlogin"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/input_password"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#fff"
+        android:background="@drawable/costumebg1"
+        android:layout_marginRight="40dp"
+        android:text="reset"
+        android:layout_toRightOf="@+id/btnlogin" />
+</RelativeLayout>

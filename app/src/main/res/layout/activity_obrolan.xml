@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObrolanActivity">
+
+    <RelativeLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#13A1F1">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="Obrolan"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/content1"
+        android:layout_below="@+id/nav"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp">
+
+        <ImageView
+            android:layout_width="133dp"
+            android:layout_height="82dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_dokter1" />
+
+        <Button
+            android:id="@+id/nama_dokter"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Dr. Rani"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/chat1"
+        android:layout_below="@id/content1"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="200dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:text="Hallo dokter"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/chat2"
+        android:layout_below="@id/chat1"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:text="Iya, Bisa saya bantu?"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/chat3"
+        android:layout_below="@id/chat2"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="200dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:text="Ingin konsultasi mengenai kulit"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/chat4"
+        android:layout_below="@id/chat3"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:elevation="12dp"
+        android:background="@drawable/costumebg2"
+        android:text="iyaa baik lahh"
+        android:fontFamily="sans-serif"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_below="@id/chat4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="isi pesan"
+        android:textColor="#3174DC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

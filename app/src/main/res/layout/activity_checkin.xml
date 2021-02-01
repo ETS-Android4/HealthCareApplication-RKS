@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckinActivity">
+
+    <RelativeLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#13A1F1">
+
+        <TextView
+            android:id="@+id/name_login"
+            android:layout_width="270dp"
+            android:gravity="center_horizontal"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:elevation="12dp"
+            android:background="@drawable/costumebg2"
+            android:layout_centerHorizontal="true"
+            android:text="Check In"
+            android:fontFamily="sans-serif"
+            android:textColor="#3174DC"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="358dp"
+        android:layout_height="510dp"
+        android:layout_below="@+id/nav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="9dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_antangin" />
+
+
+        <TextView
+            android:id="@+id/kalimat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:text="Nama : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat1"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Antangin "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Jumlah barang :  "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat4"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat3"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="2 buah"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat4"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Harga :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat5"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Rp. 4.000;-"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat6"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Alamat :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kalimat7"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Jl. DR. Sardjito No.25, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pesan"
+            android:layout_below="@+id/kalimat8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Order"
+            android:background="#13A1F1"
+            android:textColor="#fff"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

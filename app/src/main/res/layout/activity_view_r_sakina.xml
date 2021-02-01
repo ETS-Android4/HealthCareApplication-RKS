@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewRSakinaActivity">
+
+    <RelativeLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#13A1F1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Rumah sakit sakina idaman"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/content"
+    android:layout_width="358dp"
+    android:layout_height="530dp"
+    android:layout_below="@+id/nav"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="30dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/costumebg2"
+    android:elevation="12dp"
+    android:fontFamily="sans-serif"
+    android:text="@string/healthy_care"
+    android:textColor="#3174DC"
+    android:textSize="40sp"
+    android:textStyle="bold">
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_rssakina" />
+
+    <TextView
+        android:id="@+id/kalimat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="Nama : "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kalimat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kalimat1"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Rumah sakit sakina idaman "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kalimat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kalimat2"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Alamat: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kalimat4"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/kalimat3"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Jl. Blunyah Gede No.60, Kutu Dukuh, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kalimat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kalimat4"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Jam buka:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kalimat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kalimat5"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="24 jam"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/navbottom1"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/kalimat6"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_phone" />
+
+        <Button
+            android:id="@+id/phone"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Telpon"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navbottom2"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/kalimat6"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/costumebg2"
+        android:elevation="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/healthy_care"
+        android:textColor="#3174DC"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_pesan"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/pesan"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Pesan"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/lokasi"
+        android:layout_below="@+id/navbottom1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Lokasi"
+        android:background="#13A1F1"
+        android:textColor="#fff"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</RelativeLayout>
