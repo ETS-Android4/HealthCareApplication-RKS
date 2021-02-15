@@ -8,11 +8,11 @@ https://drive.google.com/drive/folders/1DYQ_tekt7BdH3nCqxEde6wdA1UZe8K2v?usp=sha
 
 Berikut file file yg digunakan dan dimasukan pada folder berikut :
 
-A. Layout : klik disini
-B. Java : klik disini
-C. Drawable : klik disini
-D. Values :klik disini
-E. Manifest :klik disini
-F. Menu :klik disini
-G. Running Aplikasi :
-Running
+### A. Layout : [klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/tree/master/app/src/main/res/layout)
+### B. Java : [klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/tree/master/app/src/main/java/com/example/healthcareservice)
+### C. Drawable : [klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/tree/master/app/src/main/res/drawable)
+### D. Values :[klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/tree/master/app/src/release/res/values)
+### E. Manifest :[klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/blob/master/app/src/main/AndroidManifest.xml)
+### F. Menu :[klik disini](https://github.com/HanZamu-code/Rekayasa-Perangkat-Lunak/blob/master/app/src/main/res/menu/option.xml)
+### G. Running Aplikasi : 
+![Running](run_aplikasi.gif)
