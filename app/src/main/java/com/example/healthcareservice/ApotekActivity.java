@@ -40,9 +40,9 @@ public class ApotekActivity extends AppCompatActivity {
                     Intent toLogin = new Intent(ApotekActivity.this, LoginActivity.class);
                     startActivity(toLogin);
                 case R.id.about:
-                    startActivity(new Intent(ApotekActivity.this, AboutActivity.class));
+                    Intent about = new Intent(ApotekActivity.this, LoginActivity.class);
+                    startActivity(about);
                     return true;
-
                 default:
                     return super.onOptionsItemSelected(item);
         }

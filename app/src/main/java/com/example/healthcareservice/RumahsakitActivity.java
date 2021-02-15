@@ -38,8 +38,8 @@ public Button rumahsakit;
                     Intent toLogin = new Intent(RumahsakitActivity.this, LoginActivity.class);
                     startActivity(toLogin);
                 case R.id.about:
-                    startActivity(new Intent(RumahsakitActivity.this, AboutActivity.class));
-                    return true;
+                    Intent about = new Intent(RumahsakitActivity.this, LoginActivity.class);
+                    startActivity(about);
                 default:
                     return super.onOptionsItemSelected(item);
             }

@@ -39,8 +39,8 @@ public class ObatActivity extends AppCompatActivity {
                 Intent toLogin = new Intent(ObatActivity.this, LoginActivity.class);
                 startActivity(toLogin);
             case R.id.about:
-                startActivity(new Intent(ObatActivity.this, AboutActivity.class));
-                return true;
+                Intent about = new Intent(ObatActivity.this, LoginActivity.class);
+                startActivity(about);
             default:
                 return super.onOptionsItemSelected(item);
         }
